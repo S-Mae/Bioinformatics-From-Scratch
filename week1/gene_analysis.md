@@ -11,7 +11,7 @@ NCBI, Ensembl, UniProt
 ## Database Annotation Differences
 NCBI reported **6** transcript variants while Ensembl reported **10** transcripts for IL6.
 
-![IL6 Transcript Variants].(images/il6_transcripts.png)
+![IL6 Transcript Variants](images/il6_transcripts.png)
 
 This difference likely results from differences in annotation pipelines, evidence thresholds, and transcript prediction strategies between databases.
 
