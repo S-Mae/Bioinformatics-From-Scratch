@@ -11,10 +11,12 @@ NCBI, Ensembl, UniProt
 ## Database Annotation Differences
 NCBI reported **6** transcript variants while Ensembl reported **10** transcripts for IL6.
 
+![IL6 Transcript Variants].(images/il6_transcripts.png)
+
 This difference likely results from differences in annotation pipelines, evidence thresholds, and transcript prediction strategies between databases.
 
 ## Canonical Transcript
-Canonical transcript is the transcript selected by a database for a gene often based on protein length, expression or biological relevance. The canonical transcript identified across databases included:
+A canonical transcript is the representative transcript selected by a database for a gene often based on protein length, expression or biological relevance. The canonical transcript identified across databases included:
 
 - **NCBI RefSeq:** NM_000600.5
 - **Ensembl Transcript:** ENST00000258743
@@ -23,6 +25,14 @@ Canonical transcript is the transcript selected by a database for a gene often b
 The **MANE** Select transcript was consistent across NCBI and Ensembl, suggesting a very strong annotation agreement.
 
 **NOTE** - Different transcript variants may produce distinct protein isoforms or may differ only in untranslated regions (UTRs) while encoding the same protein sequence.
+
+## ORF Exploration
+
+ORF Finder identified **7** potential open reading frames (ORFs) within the nucleotide sequence.
+
+ORF prediction tools help in identifying possible coding regions based on start and stop codons, but not all predicted ORFs are biologically expressed.
+
+![ORF Finder Output](images/orf_finder.png)
 
 ## Skills Practiced
 - Database exploration
