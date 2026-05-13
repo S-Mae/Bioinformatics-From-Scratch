@@ -93,7 +93,7 @@ This changed glutamic acid to valine.
 - Glutamic acid is polar, hydrophilic and negatively charged.
 - Valine is non-polar and hydrophobic.
 
-Such changes may affect protein folding, stability, structure, and biological function.
+Such changes may affect protein folding, structure, stability, and biological function.
 
 ## Nonsense Mutation
 
