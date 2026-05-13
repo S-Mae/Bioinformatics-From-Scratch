@@ -142,12 +142,6 @@ Some mutations may have little or no visible effect, especially **synonymous** m
 
 ---
 
-# Challenges Encountered
-
-Initially, distinguishing between synonymous and non-synonymous mutations was confusing, especially when different codons still translated into the same amino acid.
-
----
-
 # Skills Practiced
 
 - Manual DNA translation
