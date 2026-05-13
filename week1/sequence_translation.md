@@ -1,4 +1,4 @@
-# Sequence Logic and Mutation Analysis
+# Sequence Translation and Mutation Analysis
 
 This section explores how nucleotide sequences are translated into proteins and how mutations can alter protein structure and biological function.
 
