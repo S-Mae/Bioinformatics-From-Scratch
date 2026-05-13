@@ -12,6 +12,8 @@ Biological information flows from:
 
 DNA is transcribed into RNA, which is then translated into proteins responsible for different biological functions. 
 
+![Central Dogma](images/central_dogma.png)
+
 ---
 
 ## Codons and Reading Frames
