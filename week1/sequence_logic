@@ -1,0 +1,155 @@
+# Sequence Logic and Mutation Analysis
+
+This section explores how nucleotide sequences are translated into proteins and how mutations can alter protein structure and biological function.
+
+---
+
+## Central Dogma
+
+Biological information flows from:
+
+**DNA** → **RNA** → **Protein**
+
+DNA is transcribed into RNA, which is then translated into proteins responsible for different biological functions. 
+
+---
+
+## Codons and Reading Frames
+
+Codons are groups of three nucleotides that code for amino acids during translation.
+
+The reading frame is important because it determines how nucleotides are grouped into codons. A shift in the reading frame changes codon arrangement and can completely alter the resulting protein.
+
+### Start and Stop Codons
+
+- **Start codon:** `ATG`
+- **Stop codons:** `TAA`, `TAG`, `TGA`
+
+The start codon marks the initiation of protein synthesis while stop codons terminate translation and ensure proteins are produced at the correct length.
+
+---
+
+## Open Reading Frames (ORFs)
+
+An ORF is a sequence region that has the potential to code for a protein based on the presence of start and stop codons.
+
+ORF prediction tools may identify multiple possible ORFs, but not all predicted ORFs are biologically expressed or translated into functional proteins.
+
+---
+
+# Manual Translation Exercise
+
+## DNA Sequence
+
+```text
+ATG GAA TTC GCT AAA TGA
+```
+
+## Translation
+
+| Codon | Amino Acid |
+| --- | --- |
+| ATG | Methionine (Met) |
+| GAA | Glutamic acid (Glu) |
+| TTC | Phenylalanine (Phe) |
+| GCT | Alanine (Ala) |
+| AAA | Lysine (Lys) |
+| TGA | Stop |
+
+## Final Protein Sequence
+
+```text
+MEFAK*
+```
+
+---
+
+# Mutation Analysis
+
+## Synonymous (Silent) Mutation
+
+### Mutation
+
+```text
+GAA → GAG
+```
+
+The amino acid remained glutamic acid despite the nucleotide change because multiple codons can code for the same amino acid.
+
+---
+
+## Missense Mutation
+
+### Mutation
+
+```text
+GAA → GTA
+```
+
+This changed glutamic acid to valine.
+
+- Glutamic acid is polar, hydrophilic and negatively charged.
+- Valine is non-polar and hydrophobic.
+
+Such changes may affect protein folding, stability, structure, and biological function.
+
+## Nonsense Mutation
+
+### Mutation
+
+```text
+TGG → TGA
+```
+
+This mutation changed a codon for **tryptophan** into a stop codon.
+
+Nonsense mutations introduce premature stop codons, leading to truncated proteins that are often nonfunctional or unstable.
+
+Such mutations can severely disrupt normal biological function depending on where the stop codon occurs within the protein.
+
+---
+
+## Frameshift Mutation
+
+Deletion of one nucleotide shifted the reading frame and altered codon arrangement.
+
+Frameshift mutations are often severe because they can produce incomplete or nonfunctional proteins.
+
+---
+
+# Biological Consequences of Mutations
+
+Mutations can:
+
+- alter amino acid properties
+- affect protein folding
+- disrupt protein stability
+- introduce premature stop codons
+- produce inactive proteins
+
+Some mutations may have little or no visible effect, especially **synonymous** mutations.
+
+---
+
+# Key Concepts Learned
+
+- One nucleotide change can automatically alter protein structure
+- Similar nucleotide changes do not always produce similar biological outcomes
+- Reading frame integrity is critical for proper translation
+- ORF prediction does not always represent true biological expression
+
+---
+
+# Challenges Encountered
+
+Initially, distinguishing between synonymous and non-synonymous mutations was confusing, especially when different codons still translated into the same amino acid.
+
+---
+
+# Skills Practiced
+
+- Manual DNA translation
+- Mutation interpretation
+- Reading frame analysis
+- ORF interpretation
+- Logical reasoning
