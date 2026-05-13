@@ -34,7 +34,7 @@ ORF Finder identified **7** potential open reading frames (ORFs) within the nucl
 
 ORF prediction tools help in identifying possible coding regions based on start and stop codons, but not all predicted ORFs are biologically expressed.
 
-![ORF Finder Output](images/orf_finder.png)
+<img width="875" height="597" alt="image" src="https://github.com/user-attachments/assets/5b0b5af9-9ba5-4740-88df-d7cec5c2a793" />
 
 ## Skills Practiced
 - Database exploration
