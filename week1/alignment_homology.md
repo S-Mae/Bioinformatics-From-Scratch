@@ -133,9 +133,9 @@ Higher alignment scores generally indicate greater sequence similarity.
 
 ## Interpreting BLAST Results
 
-- **Percent Identity** — percentage of aligned positions that are identical
-- **E-value** — likelihood that the alignment occurred by chance; lower values indicate stronger significance
-- **Query Cover** — percentage of the query sequence included in the alignment
+- **Percent Identity** - percentage of aligned positions that are identical
+- **E-value** - likelihood that the alignment occurred by chance; lower values indicate stronger significance
+- **Query Cover** - percentage of the query sequence included in the alignment
 
 Low E-values and high query coverage generally suggest biologically meaningful alignments.
 
