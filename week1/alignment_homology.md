@@ -1,4 +1,4 @@
-# Day 3 — Sequence Alignment and Homology
+# Sequence Alignment and Homology
 
 ---
 
@@ -30,10 +30,10 @@ Speciation → Orthologues        Gene Duplication → Paralogues
 
 ## Homologues, Orthologues and Paralogues
 
-- **Homologues** — genes related by common ancestry (umbrella term)
-- **Orthologues** — homologous genes in different species separated by speciation  
+- **Homologues** - genes related by common ancestry 
+- **Orthologues** - homologous genes in different species separated by speciation  
   Example: Human IL6 vs Mouse IL6
-- **Paralogues** — homologous genes in the same species separated by gene duplication  
+- **Paralogues** - homologous genes in the same species separated by gene duplication  
   Example: IL6 vs IL11 in humans
 
 > Sequence similarity may suggest homology, but homology represents shared evolutionary ancestry.
@@ -41,8 +41,9 @@ Speciation → Orthologues        Gene Duplication → Paralogues
 ### Example — IL6 Phylogenetic Tree (BLAST)
 
 <img width="1149" height="325" alt="Phylogenetic Tree" src="https://github.com/user-attachments/assets/701e367f-c145-4909-9f26-88039b446308" />
-*Phylogenetic tree of IL6 orthologues generated from BLAST pairwise alignments. 
-Green = primates, pink = odd-toed ungulates, blue = even-toed ungulates.*
+
+*Phylogenetic tree of IL6 orthologues generated from BLAST pairwise alignments. Green = primates, pink = odd-toed ungulates, blue = even-toed ungulates.*
+
 ---
 
 ## Clade
@@ -70,6 +71,7 @@ Highly conserved regions often indicate important biological or functional roles
 ### Example - BLAST Multiple Sequence Alignment of IL6 
 
 <img width="795" height="257" alt="image" src="https://github.com/user-attachments/assets/44f85793-9dac-418a-953b-c5d1a9bbf3a4" />
+
 *BLAST multiple sequence alignment of IL6 across 118 sequences. Red blocks indicate positions that differ from the query. Organisms include Homo sapiens, Pan troglodytes, Callithrix jacchus and other primates.*
 
 ---
